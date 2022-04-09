@@ -14,7 +14,7 @@
         'delete'=>'Delete',
         'change'=>'Change',
         'add'=>'Add',
-        'back'=>'back',
+        'back'=>'Back',
         'table_details'=>'TABLE DETAILS',
         'change_table_info'=>'CHANGE TABLE INFORMATION',
         'add_info_to_table'=>'ADD INFORMATION TO THE TABLE',

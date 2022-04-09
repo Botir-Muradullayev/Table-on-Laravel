@@ -48,7 +48,7 @@
                                     <input type="text" name="comment" class="form-control" placeholder="{{__('accounting.add_comment')}}" value="{{$accounting->comment}}"/>
                                 </div>
                                 <div style="padding-top: 20px">
-                                    <button type="submit" class="btn btn-success">{{__('accounting.add')}}</button>
+                                    <button type="submit" class="btn btn-success">{{__('accounting.change')}}</button>
                                     <a href="/accountings" class="btn btn-danger">{{__('accounting.back')}}</a>
                                 </div>
                             </form>
