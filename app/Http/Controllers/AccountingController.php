@@ -19,7 +19,17 @@ class AccountingController extends Controller
             'date'=>'required',
             'sum'=>'required|numeric|min:1',
             'final_sum'=>'required|numeric|min:1'
-        ]);
+        ],
+         [
+             'category.required'=>'Категория должна быть заполнена',
+             'date.required'=>'Дата должна быть заполнена',
+             'sum.required' =>'Сумма должна быть заполнена',
+             'min.required'=>'Сумма должна быть равна или больше 1',
+             'final_sum.required'=>'Итоговая сумма должна быть заполнена',
+             'sum.min' => 'Итоговая сумма должна быть равна или больше 1',
+             'final_sum.min' => 'Итоговая сумма должна быть равна или больше 1',
+
+             ]);
 
         $accounting = new Accounting();
         $this->extracted($request, $accounting);
