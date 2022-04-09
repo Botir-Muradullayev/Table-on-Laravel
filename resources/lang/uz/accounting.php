@@ -1,0 +1,30 @@
+<?php
+return [
+    'home_accounting'=>'UY BUXGALTERIYASI',
+    'type'=>'TUR',
+    'category'=>'KATEGORIYA',
+    'date'=>'KUN',
+    'sum'=>'SUMMA',
+    'total'=>'UMUMIY',
+    'comments'=>'IZOHLAR',
+    'actions'=>'HARAKATLAR',
+    'expense'=>'Xarajat',
+    'income'=>'Daromad',
+    'details'=>'Detallar',
+    'delete'=>'O`chirish',
+    'change'=>'O`zgartirish',
+    'add'=>'Qo`shish',
+    'back'=>'Orqaga',
+    'table_details'=>'JADVAL DETALLARI',
+    'change_table_info'=>'JADVAL MA`LUMOTINI O`ZGARTIRING',
+    'add_info_to_table'=>'JADVALGA MA`LUMOT KIRITING',
+    'add_category'=>'Kategoriyani kiriting',
+    'add_sum'=>'Summani kiriting',
+    'add_total'=>'Umumiy summani kiriting',
+    'add_comment'=>'Kommentariyani kiriting',
+    'created_account'=>'Ma`lumot muvaffaqiyatli qo`shildi!',
+    'accounting_deleted'=>'Ma`lumot muvaffaqiyatli o`chirildi!',
+    'accounting_updated'=>'Ma`lumot muvaffaqiyatli o`zgartirildi!',
+
+]
+?>
